@@ -68,8 +68,8 @@ public class Geladeira {
 		
 		// INbstancianoes dos objetos
 		g1 = new Geladeira();
-		g2 = new Geladeira("1990","Preto","Fiat","Uno");
-		g3 = new Geladeira("1500","Verde", "Kia","Ceratto");
+		g2 = new Geladeira("1990","Cinza","Electrolux","200L");
+		g3 = new Geladeira("1500","Cinza", "Samsung","50L");
 		
 		
 		System.out.println("A Geladeira G1 tem caracteristicas:");
@@ -95,17 +95,5 @@ public class Geladeira {
 		g1.setMarca("Samsung");
 		g2.setMarca("SEMP");
 		g3.setMarca("Electrolux");
-		
-		System.out.println("\nO automovel A1 tem caracteristicas:");
-		System.out.println("Ano:" +g1.getMarca());
-		
-		
-		System.out.println("\nO automovel A2 tem caracteristicas:");
-		System.out.println("Ano:" +g2.getMarca());
-		
-
-		System.out.println("\nO automovel A3 tem caracteristicas:");
-		System.out.println("Ano:" +g3.getMarca());
-		
 	}
 }
